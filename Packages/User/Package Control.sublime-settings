@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"Git",
+		"HTMLBeautify",
+		"PHP Codebeautifier",
+		"Phpcs",
+		"PhpDoc",
+		"PHPIntel",
+		"Pretty JSON",
+		"SFTP",
+		"SublimeCodeIntel"
+	]
+}
