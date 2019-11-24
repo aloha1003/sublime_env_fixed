@@ -1,0 +1,9 @@
+{
+	"jsdocs_spacer_between_sections": true,
+	"jsdocs_extra_tags_go_after": true,
+	"jsdocs_function_description": true,
+	"jsdocs_param_name": true,
+	
+	 "jsdocs_align_tags": "deep",
+	"jsdocs_extra_tags":["@Author Peter(yj@tiigod.com","@DateTime {{datetime}}"]
+}
