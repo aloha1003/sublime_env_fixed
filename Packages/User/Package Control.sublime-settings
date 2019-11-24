@@ -5,15 +5,27 @@
 	],
 	"installed_packages":
 	[
+		"DocBlockr",
 		"Emmet",
 		"Git",
+		"Git Conflict Resolver",
+		"GitSavvy",
+		"HTML-CSS-JS Prettify",
 		"HTMLBeautify",
+		"MarkdownPreview",
+		"Package Control",
 		"PHP Codebeautifier",
 		"Phpcs",
-		"PhpDoc",
+		"phpfmt",
 		"PHPIntel",
+		"PhpSimpleRefactor",
 		"Pretty JSON",
 		"SFTP",
-		"SublimeCodeIntel"
+		"SideBarMenuAdvanced",
+		"SqlBeautifier",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-php"
 	]
 }

@@ -1,0 +1,7 @@
+{
+	"autocomplete": true,
+	"format_on_save": true,
+	"php_bin": "C:\\Program Files\\php\\php.exe",
+	"psr2": true,
+	"version": 4
+}
