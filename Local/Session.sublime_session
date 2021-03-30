@@ -1,0 +1,265 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3211,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Package Control Messages\n========================\n\nEmmet\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n\n\nSublimeCodeIntel\n----------------\n\n  SublimeCodeIntel\n  ================\n  \n   ____        _     _ _                 ____          _      ___       _       _\n  / ___| _   _| |__ | (_)_ __ ___   ___ / ___|___   __| | ___|_ _|_ __ | |_ ___| |\n  \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   / _ \\ / _` |/ _ \\| || '_ \\| __/ _ \\ |\n   ___) | |_| | |_) | | | | | | | |  __/ |__| (_) | (_| |  __/| || | | | ||  __/ |\n  |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|\\____\\___/ \\__,_|\\___|___|_| |_|\\__\\___|_|\n  A full-featured code intelligence and smart autocomplete engine for Sublime Text.\n     (Code intelligence plugin ported from Open Komodo Editor to Sublime Text)\n  \n  \n  +-------------------------------- HELP WANTED ---------------------------------+\n  |     Maintaining this project is hard, I do it in my spare time, but I'm      |\n  |     basically all alone. If anyone is interested in contributing, please     |\n  |     contact me. I really need much more help maintaining SublimeCodeIntel    |\n  |                                                                              |\n  |                       Follow me on twitter @germbravo                        |\n  |           You can find us at #sublimecodeintel on irc.freenode.net           |\n  |                                                                              |\n  |             If you like SublimeCodeIntel, please make a donation:            |\n  |        http://sublimecodeintel.github.io/SublimeCodeIntel/donate.html        |\n  +------------------------------------------------------------------------------+\n  \n  \n  Features\n  --------\n  \n  Supports all the languages Komodo Editor supports for Code Intelligence (CIX, CodeIntel2):\n  \n  JavaScript, Mason, XBL, XUL, RHTML, SCSS, Python, HTML, Ruby, Python3, XML, Sass, XSLT, Django, HTML5, Perl, CSS, Twig, Less, Smarty, Node.js, Tcl, TemplateToolkit, PHP.\n  \n  \n  Provides the following features:\n  \n  * Jump to Symbol Definition - Jump to the file and line of the definition of a symbol.\n  * Imports autocomplete - Shows autocomplete with the available modules/symbols in real time.\n  * Function Call tooltips - Displays information in the status bar about the working function.\n  \n  \n  + Shortcuts for jump to definition have changed:\n  \n    For Mac OS X:\n      * Jump to definition = ``Control+Click``\n      * Jump to definition = ``Control+Command+Alt+Up``\n      * Go back = ``Control+Command+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n    For Linux:\n      * Jump to definition = ``Super+Click``\n      * Jump to definition = ``Control+Super+Alt+Up``\n      * Go back = ``Control+Super+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n    For Windows:\n      * Jump to definition = ``Alt+Click``\n      * Jump to definition = ``Control+Windows+Alt+Up``\n      * Go back = ``Control+Windows+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n  \n  \n  Notes\n  -----\n  \n  ** Restart Sublime Text after reading this **\n  \n  \n  More information\n  ----------------\n  Please take the time to read the documentation:\n  \n  In case of trouble, please read the Troubleshooting section in the README.\n  \n  * Online - http://sublimecodeintel.github.io/SublimeCodeIntel/\n  * Git - https://github.com/SublimeCodeIntel/SublimeCodeIntel\n  \n  \n  IMPORTANT\n  ---------\n  \n  Do NOT edit the default SublimeCodeIntel settings. Your changes will be lost\n  when SublimeCodeIntel is updated. ALWAYS edit the user SublimeCodeIntel settings\n  by selecting \"Preferences->Package Settings->SublimeCodeIntel->Settings - User\".\n  Note that individual settings you include in your user settings will **completely**\n  replace the corresponding default setting, so you must provide that setting in its entirety.\n\n\nSFTP\n----\n\n  Thanks for installing Sublime SFTP! Below are some quick notes to get you\n  started with the plugin. Please see https://wbond.net/sublime_packages/sftp for\n  the full documentation.\n  \n  \n  There are two major modes of operation:\n  1. Mapping a local folder to a remote folder\n  2. Working off of a server\n  \n  \n  Mapping a Local Folder to a Remote Folder\n  ----\n  \n  To map a local folder to a remote folder, right-click on it in the side bar\n  and select the SFTP/SFTP > Map to Remote... You will enter your connection\n  parameters and a new file will be created named sftp-config.json.\n  \n  Once this file has been saved, all files in that folder and all subfolders\n  will have various operations available via the side bar context menu, editor\n  context menu and command palette.\n  \n  \n  Working off of a Server\n  ----\n  \n  To work off of a server, use the File menu and select SFTP/FTP > Setup Server...\n  You will enter your connection parameters and options then save the file with\n  the name you want to give the connection.\n  \n  Once the server config is saved, you will be automatically connected to the\n  server and you can browse and perform actions via the quick panel.\n  \n  Unfortunely due to limitations of the Sublime Text API, it is not possible\n  to present the remote filesystem in the side bar. There are, however, key\n  bindings for connecting to servers to help reduce the amount of time remote\n  file operations take.\n  \n  \n  Support\n  ----\n  \n  To learn more about the features and settings, please visit\n  https://wbond.net/sublime_packages/sftp.\n  \n  If you are having trouble, please visit\n  https://wbond.net/sublime_packages/sftp/support. The support page includes\n  instructions for capturing a debug log that will be useful if you believe\n  you are experiencing a bug.\n\n\nPackage Control\n---------------\n\n  Version 3.4.0 Release Notes\n  \n   -----------------------------------------------------------------------\n  | NOTICE: This will be the final release of Package Control supporting  |\n  | - Sublime Text 2                                                      |\n  | - Sublime Text 3 beta builds (<3143)                                  |\n   -----------------------------------------------------------------------\n  | Please see https://sublimetext.com for an updated build               |\n   -----------------------------------------------------------------------\n  \n  New features include:\n  \n   - Support for repositories hosted on https://gitlab.com - by TheSecEng\n  \n   - An alternative TLS implementation based on the oscrypto Python\n     library, which uses native operating system TLS libraries and\n     certificate handling. See the \"downloader_precedence\" setting to enable.\n  \n   - Preferences now use the side-by-side edit mode\n  \n   - Added command palette entries to enable and disable debug mode for\n     troubleshooting and bug reports\n  \n  Bug fixes include:\n  \n   - Fixed operation on macOS 11.0 Big Sur - by TheSecEng\n  \n   - Improved handling of invalid dependencies - by deathaxe\n  \n   - Corrected handling of unsuccessful downloads with wget - by deathaxe\n  \n   - Fixed various issues with the HTTP caching - by deathaxe\n  \n   - Updated the BitBucket provider to use the 2.0 API - deathaxe\n  \n   - Packages installed via symlinks are now unlinked instead of being\n     deleted when being removed or cleaned up - by rchl\n  \n   - Improved install performance of packages with large numbers of\n     files - by BenjaminSchaaf\n  \n   - Fixed handling of auth with the wininet downloader - by NicholasBuse\n  \n   - Fixed handling BitBucket repositories without a nickname\n  \n   - Resolved deadlocks and ignored packages occuring when removing multiple\n     dependencies at once\n  \n   - Package messages are no longer printed with trailing whitespace on lines\n     with no text - by dnicolson\n\n\nEmmet\n-----\n\n  🎉 Emmet just updated to v2.0.0! 🎉\n\n  The Emmet plugin just got better:\n\n  * Features completely new developer experience: displays interactive abbreviation preview and plays nice with Tab key and native Sublime Text snippets.\n  * New version is many times faster that previous one.\n  * Improved JSX and CSS support.\n  * Rewritten from scratch and doesn’t use heavy PyV8 binary anymore.\n\n  Read more about new version: https://teletype.in/@chikuyonok/emmet2-sublime-text\n\n  And if you like Emmet, please support it’s further development 😇:\n  https://github.com/sponsors/emmetio\n\nGitSavvy\n--------\n\n  GitSavvy 2.28.0\n  ===============\n\n  - Improvements to the Diff View\n\n    The standard diff view now supports staging, unstaging, or discarding\n    selections, for example single lines, and whole files.\n\n    In consistency with the other views we bind `[sud]` to stage, unstage,\n    or discard one hunk or the concrete selection.  This works with multiple\n    cursors and selections as well.\n\n    Use the uppercase keys `[SUD]` to operate on whole files.\n\n    \"Zooming\", t.i. changing how many context lines are shown, via `[+-]` has\n    been greatly improved.  It's actually useable and useful now.\n\n    **Tip**  If you want to stage several single lines from the same chunk,\n    it is recommended to make use of multiple selections.  We take that as a\n    hint on which lines actually belong together and form symmetrical\n    modifications.\n\n\n  With this release we start to ship a series of refactorings as well.  As a\n  result, a few settings have been removed:\n\n  - `live_panel_output` and `live_panel_output_timeout` as the feature has\n    been reimplemented.  We now always update the panel \"live\" if possible.\n\n  - `close_panel_for` as this feature was poorly implemented.\n\n  - `show_input_in_output`, `show_stdin_in_output`, `show_time_elapsed_in_output`\n\n  You should not use them anymore and remove them from your user settings file.\n\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.27.7...2.28.0\n  GitSavvy 2.27.0\n  ===============\n\n  - Introduce rebasing directly from the Repo History\n\n    In the history views there is a new rebase menu bound to `[r]` which offers\n    very typical rebase commands.\n\n    `[W]` to reword the commit message of the commit under the cursor\n    `[E]` to edit the commit under the cursor\n\n    If you're on a fixup or squash commit, `[r]` will offer a command to apply\n    that fix.\n\n    At any time during a rebase you can either `git: rebase --abort` or\n    `git: rebase --continue` from the Command Palette.  (`--skip` is also there.)\n\n    Note that rebasing merges is not implemented yet.\n\n\n  - Other improvements to the Repo History\n\n    `[f]` now remembers the last used filters and also provides defaults like\n          \"--reflog\"\n    `[F]` toggles the filters on and off\n    `[l]` opens a menu with all files and folders under version control\n\n    For example, if you're searching through a \"File History\", `[F]` will show\n    you now the context of the commits.\n\n  - Improvements to the Commit Message View\n\n    `<tab>` on the very first char of the buffer (BOF position) will show the most\n            recent commits.\n\n    Similar to that, `fixup<tab>` (and `squash<tab>`) can be used to construct\n    commit messages which are recognized as such by \"git --interactive\".\n\n\n\n  When you're rebasing you likely get merge conflicts rather sooner than later.\n  If so, a panel should open with further instructions.\n\n  ##### What's the current workflow to resolve merge conflicts?\n\n  Usually, you should open `git: status`[*] which points out the files with\n  merging conflicts.\n\n  1. Select such a file and press `[e]` to open a diff showing the merge\n  conflict.\n\n  2. Now click into a hunk and press `[o]` to open the file at that\n  position.  Edit the conflict to your liking and save.  Go back to the diff\n  (`ctrl+tab`), the diff will update.\n\n  Repeat with `[o]` if there are still other conflicts.  Eventually the file will\n  be okay.  Unfortunately, you cannot stage such a file in the diff view at the\n  moment, so close the view which will bring you back to the status dashboard.\n\n  3. `[s]` to stage the file. (Double check with `[e]` on the staged file the diff\n  to be committed).  Proceed with other conflicting files.\n\n  4. Finally, `git: rebase --continue` to continue.\n\n\n  ##### How does \"Edit\" actually work?\n\n  If you select a commit for \"Edit\", it will basically checkout that commit.\n  Again a panel opens with further instructions.  You usually now open the file\n  you want to edit, make the change and save.  Stage and amend. For example open\n  the diff for that file, stage the changes and `[m]` to start the commit process.\n\n  You can make more changes too, basically *adding* commits.  When you're done\n  `git: rebase --continue` to continue.\n\n\n  ##### Shit;\n\n  After a rebase, `[f]` followed by `<up>` should bring you the \"--reflog\".  Hit\n  `<enter>` to redraw.  You can now for example compare the old with the new tip.\n  Select two commits, `<enter>` for the standard menu.  Tip: Choose the diff with\n  the two(!) dots \"new..old\".\n\n  Of course, \"reset --hard\".\n\n\n  [*] It is recommended to bind `gs_show_status` to a key-combo, for example\n\n  ```\n    { \"keys\": [\"ctrl+shift+s\"], \"command\": \"gs_show_status\"},\n  ```\n\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.26.2...2.27.0\n  GitSavvy 2.26.0\n  ===============\n\n  - Implement `git: Line History`\n\n    A \"Line History\" (aka \"log wtf\" or \"log why\") basically calls\n    \"git log -Lx,y:<some_file>\".  This is a supereasy to use tool in\n    the editor.  It is usually the faster (in terms of you get the info\n    you're looking for faster) \"blame\" and also the faster \"File History\"\n    because often you're only interested in some part of a file. Really\n    answering \"Why is this line or section of code here?\".\n\n    The command can be called from normal views only. Just put your cursor\n    somewhere, or drag a selection, and call the command from the Command Palette.\n    The command is called `gs_line_history` if you want to bind it to a key.\n\n    Comes with:\n    `[o]` to open the complete commit under the cursor\n    `[O]` to open the file at that revision\n    `[g]` to open the graph context\n\n\n  - Improvements to the Repo History\n\n    We already showed the path down while navigating through the history.  Now\n    we also follow and colorize the path upwards.  (For customization: the scopes\n    we use here are `git_savvy.graph.dot.above`, `git_savvy.graph.path_char.above`)\n\n    This is not just fancy but allows easier and faster navigation:\n\n    Use the arrow keys `[up]` and `[down]` to get to the previous or next commit.\n    Use `[alt+up]` or `[alt+down]` for \"wide\" jumps usually following the first parent.\n    After such a wide jump, you can use the built-in `jump_back`/`jump_forward`\n    commands (for example `[ctrl+-]` on Windows/Linux by default) to jump back\n    to the previous location.\n\n\n    There is also a new smart copy function.  Just invoke the builtin \"copy\"\n    command (for example `[ctrl+c]`) to directly copy the commit hash, or commit\n    message, or a combination of both to the clipboard (if nothing is selected).\n\n\n    Minor:  If on a HEAD commit we offer \"pull\", \"push\", and \"fetch\" in the\n    actions menu (`[enter]`), and the diff action opens the normal diff for staging,\n    unstaging etc.\n\n    Finally, we now clearly mark fixup/squash commits.  (The scope here is:\n    `string.other.rebase-hint.git-savvy`.)\n\n\n  - Improvements to the Commit Message View\n\n    Being in the diff area, you can now use `[o]` on a hunk to open that location\n    for editing.  Also `[,.]` for navigation per hunk.  But unstaging etc. is not\n    supported yet.\n\n\n  - Noteable\n\n    Removed \"word-diff\" switch from the Diff view.  This has been superseeded\n    by the intraline diffing feature.  There is still the switch to ignore white-\n    space changes though, but the keybinding for that moved (from `[s]`) to `[w]`.\n\n    The setting \"show_commit_diff\" now defaults to \"full\" (was: \"stat\").\n    The setting \"show_full_commit_info\" now defaults to \"true\" (was: \"false\").\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.25.0...2.26.0\n  GitSavvy 2.25.0\n  ===============\n\n  - Improve historical \"file view\"\n\n    When you look at a specific revision of a file (for example via\n    `git: show current file at commit`) we now show diff markers in the gutter\n    area.\n\n    Use `[p]`/`[n]` to switch to a newer or older version of that file.  You\n    can also open an \"inline diff\" from here, using the Command Palette or\n    preferable a key binding.\n\n    A more typical work-flow to such a file revision is from a \"graph view\",\n    either the `git: Repo History` or `git: File History`: press `[o]` to show\n    the full commit, and then on a specific hunk `[o]` again to show the\n    complete file at that revision.\n\n  - You can now generally switch from the \"normal\" diff view to the\n    \"inline diff\".  This is useful if you want to see more of the context of a\n    hunk. Esp. it enables you to stage single lines of a hunk which is still\n    not implemented for the \"normal\" diff.\n\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.24.0...2.25.0\n  GitSavvy 2.23.0\n  ===============\n\n  - Improved \"inline diff\" experience (`git: diff current file inline`) (#1306)\n\n  It is recommended to bind `gs_inline_diff` to a key combo so it becomes a main\n  entry point into the GitSavvy world. E.g.\n\n  ```\n    {\n        \"keys\": [\"ctrl+shift+[\"],\n        \"command\": \"gs_inline_diff\",\n    },\n  ```\n\n  Now, this key acts like a toggle. You press it to switch to the inline view.\n  Press it again to close it. This should give you a experience very close to\n  Sublime Text's built in `toggle_inline_diff` (\"Show Diff Hunk\") feature.\n\n  However, being in that view, you can of course stage, undo staging, or discard\n  changes.\n\n  Use `[TAB]` to switch between the staged and unstaged area.\n\n  Use `[c]` (commit stage), `[C]` (commit -a) or `[m]` (amend commit from stage)\n  to enter the commit message view.  Tip: These commands are also available for\n  the \"normal\" diff view `git: diff` (command name: `gs_diff`).\n\n  Notable: We now use the builtin color scopes (just like the intra line\n  colorization for the normal diff views does).  The Sublime Text scopes (e.g.\n  \"diff.inserted.char\") are suffixed with \".git-savvy.inline-diff\".\n\n  A lot of bugs have been fixed for this view as well.\n\n\n  - GitSavvy learned a new command `gs_stage_hunk` (#1305)\n\n  The command works from normal views t.i. while editing your files. Note that\n  we don't ship any bindings. If you want to use this feature, it is expected you\n  bind it to a key combo, the Command Palette, or maybe the context menu on your\n  own. E.g.\n\n  ```\n      { \"keys\": [\"ctrl+alt+s\"], \"command\": \"gs_stage_hunk\"},\n  ```\n\n  Now having this binding, you can stage \"hunks\" directly from the file.\n  This works best with the default Sublime Text settings:\n\n  ```\n      \"mini_diff\": true,  // or \"auto\"\n      \"show_git_status\": true,\n      \"git_diff_target\": \"index\",  // !\n  ```\n\n  With these settings, the Sublime gutter will show you the modified lines.\n\n  Just try it! Edit some lines, hit the key combo, and the gutter will reflect\n  that immediately. Btw, the commands supports single and multiple cursors, and\n  single or multiple selections.\n\n  If that's your next quick workflow, maybe consider the following binding\n\n  ```\n    {\n        \"keys\": [\"ctrl+shift+[\"],\n        \"command\": \"gs_inline_diff\",\n        \"args\": { \"cached\": true }\n    },\n  ```\n\n  so you can quickly see the staged hunks, maybe to unstage, but of course to\n  enter the commit process using `[cCm]`.\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.22.0...2.23.0\n  GitSavvy 2.22.0\n  ===============\n\n  - Greatly improved graph view (`git: Repo History` or `git: File History` via\n    the Command Palette)\n\n    [ctrl+R]  Goto symbols, tags, branches\n    [h]       Goto HEAD commit\n    [enter]   Open a menu with additonal actions, for example to checkout or\n              remove a branch, reset HEAD, or to create or delete a tag.\n    [o]       To open the commit in a new view\n    [m]       Open or close a panel to always see the current commit details\n\n    further experimental bindings\n    [a]       to toggle `--all`\n    [f]       to enter additional filter verbatim\n              E.g. try `--reflog` or `-Ssearch_term`\n\n  - Improved navigation with [oOg] throughout the application\n\n    When viewing a commit:\n    [o]       To open the file revision at hunk position\n    [O]       To open the same file but currently checked out on disk\n    [g]       To open the graph showing the context of the commit\n\n    When viewing a file revision:\n    [o]       To open the commit this revision belongs to\n    [O]       To open the same file but currently checked out on disk\n    [g]       To open the graph showing the context of said commit\n\n    From the status dashboard\n    [g]       To open the graph showing HEAD\n\n    From the branches dashboard\n    [g]       To open the graph showing the selected branch\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.21.0...2.22.0\n  GitSavvy 2.21.0\n  ===============\n\n  - We now highlight intra-line differences when we show git-diffs. \n    https://github.com/timbrel/GitSavvy/pull/1220\n\n    For the annonations we use the scopes \"diff.inserted.char.git-savvy.diff\" \n    and \"diff.deleted.char.git-savvy.diff\". These are the same scopes\n    Sublime uses for their \"Incremental Diff\" feature (but namespaced with\n    \".git-savvy.diff\") so every user should see proper colors right \n    away. \n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.20.0...2.21.0\n  GitSavvy 2.20.0\n  ===============\n\n  - GitSavvy moved to https://github.com/timbrel/GitSavvy\n\n  - Improve parsing and colorization of diffs in \"word-diff\" mode. Use\n    `<w>` to enter that mode as usual.\n\n  - Improve the stash view. \n    Enter the stash view e.g. from the status dashboard via `<t><s>`. While\n    looking at the stash try `<?>` for help, or just `<enter>` to see the \n    available, typical actions.\n\n  - Renovate the standard status view to fix a lot of small edge cases. Esp.\n    improve the cursor jumping while staging/unstaging etc.\n\n  - Fix newline handling on Windows when .gitignoring files. (@joreiff)\n\n  We now ship code to reload the plugin after updates automatically and silently. \n  This will be in full effect for the very next update you see.\n\n\n  For more info:\n    https://github.com/timbrel/GitSavvy/compare/2.19.1...2.20.0\n\nSFTP\n----\n\n  SFTP 1.15.0 Changelog:\n\n  ====================================\n  | CYBER MONDAY                     |\n  | 30% off https://codexns.io/sftp  |\n  ====================================\n\n  Changes\n  -------\n\n   - Improved handling of file not found errors on some SFTP servers\n\n   - Update bundled version of psftp.exe on Windows to be based on version 0.74,\n     including:\n      - Support for elliptic-curve cryptography (the NIST curves and 25519)\n      - Hardware-accelerated versions of common cryptographic primitives\n      - Various security fixes\n\n   - Quick panels used for Yes/No confirmation will be preserved when Sublime\n     Text is not focused, or loses focus\n\n   - Improved output from SFTP panel to use colors from custom color schemes\n\n   - Settings and Key Bindings now use side-by-side editing mode\n\n   - Added commands to enable/disable debug mode\n\n   - Added commands to add and remove license key\n\nSublimeLinter\n-------------\n\n  SublimeLinter 4.16 - Quick Actions (beta)\n\n  We're building a new feature to quickly ignore specific error messages.\n  At first we will ship actions for eslint, stylelint, flake8, mypy and phpcs.\n\n  Want to see actions for your favourite linter?\n  Please open a PR with your addition to quick_fix.py:\n  https://github.com/SublimeLinter/SublimeLinter/blob/master/lint/quick_fix.py\n\n  Eventually this will become an API so that plugins can add their own.\n\n  For more information please refer to our README:\n  https://github.com/SublimeLinter/SublimeLinter\n\n  ---\n\n  P.S. If you saw this message before, we updated some important links..\n       Sorry for the noise! Hope you enjoy the new feature!",
+					"settings":
+					{
+						"buffer_size": 25630,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 25630,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										23653,
+										23653
+									]
+								],
+								"settings":
+								{
+									"SL.13.region_keys":
+									[
+									],
+									"auto_indent": false,
+									"incomplete_sync": null,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 11315.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SFTP":
+			{
+				"height": 0.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0 1440 -180 1920 1057 1440 -180 1920 1057 ",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
